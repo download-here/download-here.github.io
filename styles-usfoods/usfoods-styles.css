@@ -1,0 +1,81 @@
+/* US Foods */
+
+div#us-foods {
+	background: white;
+	position: absolute;
+	width: 22rem;
+	height: 20rem;
+	user-select: none;
+	position: absolute;
+}
+
+div#us-foods h1:first-child {
+	color: #5A881C;
+	font-family: monospace;
+	position: absolute;
+	font-weight: bold;
+	font-size: 22rem;
+	letter-spacing: -2rem;
+	left: 1rem;
+	top: -16.5rem;
+	transform: scale(1.2,1);
+
+}
+div#us-foods h1:first-child::after {
+	content: ".";
+	position: absolute;
+	top: 5rem;
+	left: 14.3rem;
+	font-size: 12rem;
+	text-shadow: 0 0 0 transparent;
+	transform: scale(1,1);
+
+}
+div#us-foods h1:nth-child(2) {
+	color: #D14412;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 3rem;
+	position: absolute;
+	top: 9rem;
+	left: 4rem;
+	font-size: 4rem;
+	font-variant-caps: all-petite-caps;
+	letter-spacing: -0.6rem;
+	transform: scale(1.8,2);
+}
+div#us-foods h1:nth-child(2)::after {
+	content: "\2122";
+	font-size: 1rem;
+	font-family: Impact;
+	position: absolute;
+	top: 1.3rem;
+	left: 10.7rem;
+}
+div#us-foods h1:nth-child(3) {
+	color: #717173;
+	position: absolute;
+	font-size: 2.5rem;
+	top: 16.5rem;
+	left: 1rem;
+	font-weight: bolder;
+	font-variant-caps: all-petite-caps;
+	font-family: monospace;
+	transform: scale(1.1,1);
+	letter-spacing: -0.01rem;
+	word-spacing: -0.5rem;
+	text-shadow:
+       0.5px 0.5px 0 #717173,
+       -0.5px -0.5px 0 #717173,
+       -0.5px 0.5px 0 #717173,
+       0.5px -0.5px 0 #717173;
+}
+div#us-foods h1:nth-child(3)::after {
+	content: "\2122";
+	font-size: 1rem;
+	font-family: Impact;
+	position: absolute;
+	top: 0.3rem;
+	left: 18rem;
+	text-shadow: 0 0 0 transparent;
+}
